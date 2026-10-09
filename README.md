@@ -1,66 +1,62 @@
 # Tshepo Maabane
 
-**Final-year Computer Science student | Aspiring Software Developer | eMalahleni, South Africa**
+Final year Diploma in Computer Science student at Tshwane University of Technology, based in eMalahleni, South Africa. I build full stack web apps with React, TypeScript and Supabase, and backend systems in Java with Spring Boot. I am looking for a **software development internship**.
 
-I am a final-year Diploma in Computer Science student at Tshwane University of Technology, building full-stack web and desktop applications with Java, React and TypeScript. I enjoy turning real-world problems into practical software, from livestock management to online learning. I am currently looking for a **software development internship** where I can contribute to a team and keep growing as an engineer.
+[![Portfolio](https://img.shields.io/badge/Portfolio-tshepomabs16.github.io-0A66C2?style=flat-square&logo=githubpages&logoColor=white)](https://tshepomabs16.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tshepo%20Maabane-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tshepo-maabane-3712b4290)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-tshepomabs16.github.io-0A66C2?style=for-the-badge&logo=githubpages&logoColor=white)](https://tshepomabs16.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Tshepo%20Maabane-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tshepo-maabane-3712b4290)
+## Highlighted Projects
 
----
+### Client Operations Platform (private client project)
+A business operations platform built for a South African company through an industry software programme. It has role based access for six user types, two factor sign in, live updates, an audit trail and automated encrypted backups.
+
+**Tech:** Java, Spring Boot, PostgreSQL, Redis, Angular, Tailwind CSS, Playwright
+
+**Key achievement:** Delivered release 1.1 with 167 of 184 specified requirements verified, backed by more than 1,000 automated tests.
+
+*Code is private under the client agreement.*
+
+### [CowTrack](https://github.com/Tshepomabs16/cowtrack) (in progress)
+A livestock management system that tracks each animal's GPS location, raises alerts when cattle leave a geofenced area, and keeps health, vaccination and production records.
+
+**Tech:** Java, Spring Boot, Spring Security (JWT), PostgreSQL, React, Material UI, Leaflet
+
+**Key achievement:** Builds into a single jar that serves both the API and the web app, with integration tests that check every frontend API call has a matching backend route.
+
+### [Toolbox](https://github.com/Tshepomabs16/Toolbox)
+An Android app that scans, splits, merges, compresses and reads text from documents entirely on the phone, with no account and no uploads.
+
+**Tech:** Kotlin, Jetpack Compose, ML Kit, PdfBox, Room
+
+**Key achievement:** The app ships without internet permission and CI fails the build if one ever appears. Scanning was optimised so a 25 page scan uses about 200 MB of memory instead of 550 MB.
+
+### [Edulink Central](https://github.com/Tshepomabs16/Edulink-Central) (in progress)
+A learning platform where students and tutors sign up, browse subjects and use their own dashboards, with a separate admin area.
+
+**Tech:** React, TypeScript, Vite, Tailwind CSS, Supabase (PostgreSQL and Auth)
+
+**Key achievement:** Data access is enforced in the database with PostgreSQL row level security policies.
+
+## Other Projects
+
+- [Student Expenses Management](https://github.com/Tshepomabs16/Student-expenses-management): a Java desktop app with JavaFX and Swing for recording and summarising student spending.
+- [Portfolio website](https://github.com/Tshepomabs16/Tshepomabs16.github.io): my personal site, built with HTML, CSS and JavaScript.
 
 ## Tech Stack
 
-**Languages**
+[![Skills](https://skillicons.dev/icons?i=java,spring,kotlin,ts,js,react,angular,tailwind,supabase,postgres,redis,html,css,maven,git,githubactions)](https://skillicons.dev)
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
-**Frameworks and Libraries**
-
-![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
-
-**Backend, Data and Tools**
-
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
----
-
-## Featured Projects
-
-| Project | Description |
-| --- | --- |
-| [**Edulink-Central**](https://github.com/Tshepomabs16/Edulink-Central) | An online learning platform for students, built with TypeScript. |
-| [**CowTrack**](https://github.com/Tshepomabs16/cowtrack) | A Java livestock management system for recording and tracking cattle, with a Spring Boot API and React client. |
-
----
+**Also used:** JavaFX, Jetpack Compose, Vite, JUnit, Vitest, Playwright
 
 ## Achievements
 
-- **MAISH 2025 Hackathon:** placed 6th out of 30+ competing teams.
-- **Student Mentor, Tshwane University of Technology (2024 and 2025):** mentored fellow students through their studies.
-
----
+- **MAISH 2025 Hackathon:** placed 6th out of more than 30 teams.
+- **Student Mentor, Tshwane University of Technology:** 2024 and 2025.
 
 ## GitHub Stats
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Tshepomabs16&show_icons=true&hide_border=true&count_private=true" alt="Tshepo's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tshepomabs16&layout=compact&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Tshepomabs16&show_icons=true&hide_border=true&count_private=true" alt="Tshepo's GitHub stats" />
 
----
+## Contact
 
-## Get in Touch
-
-I am open to internship opportunities in software development. The best way to reach me is through [LinkedIn](https://www.linkedin.com/in/tshepo-maabane-3712b4290) or via my [portfolio](https://tshepomabs16.github.io).
+Open to software development internships. Reach me on [LinkedIn](https://www.linkedin.com/in/tshepo-maabane-3712b4290) or through my [portfolio](https://tshepomabs16.github.io).
